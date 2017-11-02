@@ -40,6 +40,7 @@ Partial Class Form1
         Me.lblName.TabIndex = 0
         Me.lblName.Text = "William Wolfe"
         Me.lblName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.lblName.Visible = False
         '
         'btnShowInfo
         '
@@ -74,6 +75,7 @@ Partial Class Form1
         Me.lblStreet.TabIndex = 3
         Me.lblStreet.Text = "888 South Main Street"
         Me.lblStreet.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.lblStreet.Visible = False
         '
         'lblCityStateZip
         '
@@ -85,6 +87,7 @@ Partial Class Form1
         Me.lblCityStateZip.TabIndex = 4
         Me.lblCityStateZip.Text = "Waynesville, NC 28786"
         Me.lblCityStateZip.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.lblCityStateZip.Visible = False
         '
         'Form1
         '
