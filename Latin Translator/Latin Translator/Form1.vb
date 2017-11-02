@@ -1,22 +1,26 @@
 ﻿Public Class Form1
 
-    Private Sub Label2_Click(sender As Object, e As EventArgs) Handles Label2.Click
+    Private Sub lblCenter_Click(sender As Object, e As EventArgs) Handles lblCenter.Click
 
     End Sub
 
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        Label1.Visible = True
+    Private Sub btnSinister_Click(sender As Object, e As EventArgs) Handles btnSinister.Click
+        lblLeft.Visible = True
     End Sub
 
-    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
-        Label2.Visible = True
+    Private Sub btnMedium_Click(sender As Object, e As EventArgs) Handles btnMedium.Click
+        lblCenter.Visible = True
     End Sub
 
-    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
-        Label3.Visible = True
+    Private Sub btnDexter_Click(sender As Object, e As EventArgs) Handles btnDexter.Click
+        lblRight.Visible = True
     End Sub
 
-    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
+    Private Sub lblLeft_Click(sender As Object, e As EventArgs) Handles lblLeft.Click
+
+    End Sub
+
+    Private Sub lblRight_Click(sender As Object, e As EventArgs) Handles lblRight.Click
 
     End Sub
 End Class
